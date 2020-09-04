@@ -2,7 +2,9 @@
 dist: xenial
 
 language: c
-
+arch:
+  - ppc64le
+  - amd64
 perl:
   - "5.22"
   - "5.20"
